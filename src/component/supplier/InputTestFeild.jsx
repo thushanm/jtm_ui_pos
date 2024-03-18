@@ -114,7 +114,7 @@ const handelClick=async (e) => {
                             margin: 'auto',
                         }}
 
-                    > <Button sx={{backgroundColor: "black"}} variant="contained" endIcon={<AddBoxIcon/>} onClick={handelClick}>
+                    > <Button sx={{backgroundColor: "black",marginBottom:"10px"}} variant="contained" endIcon={<AddBoxIcon/>} onClick={handelClick}>
                         Save Supplier
                     </Button>
                     </Box>
